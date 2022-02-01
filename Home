@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>java</title>
+<link href="Untitled-3.css" rel="stylesheet" type="text/css" id="darktheme">
+</head>
+
+<body>
+	<div class="toggles">
+		
+		
+	<label class="switch">
+		<input id="dtheme" type="checkbox" onClick="dark()">
+		<span class="slider round"></span>
+	</label> 
+	
+	<p id="default" style="display:none"> This is Default Theme </p>
+	
+	</div>
+	
+	<div class="wrapper"> 
+		<h1> My Top Naruto Characters </h1>
+		
+		
+		
+		<div class="sakura"> 
+	<p><img src="sakura smiling.jpeg" alt="sakura" height="200px" width="200px"/></p><h2> Sakura </h2> <div class="pic1"></div>
+		</div>
+		<div class="naruto"> 
+	<p> <img src="narutocute.jpeg" alt="naruto" height="200px" width="200px"/></p><h2> Naruto </h2><div class="pic2"></div>
+		</div>
+		
+		<div class="hinata"> 
+		<p> <img src="hinata.jpeg" height="200px" width="200px" alt="hinata"/> </p>	
+	<h2> Hinata </h2><div class="pic3"></div>
+	</div>
+		
+		<h3> <a href="Java.html" class="java"> Learn More About Me Here </a> </h3>
+		
+	</div>
+	
+	
+	<script> 
+		
+		function dark(sheet) {
+			var x= document.getElementById('darktheme');
+			if (x.getAttribute('href')== 'Untitled-3.css') {
+				x.href = 'dark_theme.css';
+			}
+			else {x.href = 'Untitled-3.css'
+				 }
+		}
+	
+	</script>
+</body>
+</html>
